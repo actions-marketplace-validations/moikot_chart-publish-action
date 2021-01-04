@@ -52,13 +52,13 @@ main() {
       docker run -i --rm \
         -v "${temp_dir}":/temp \
         -v "${charts_dir}":/charts \
-        "${helm_image}" --debug repo index /temp --url ${charts_url} --merge /charts/index.yaml
+        "${helm_image}" repo index /temp --url ${charts_url} --merge /charts/index.yaml
     else
       echo "Creating the chart index ..."
       docker run -i --rm \
         -v "${temp_dir}":/temp \
         -v "${charts_dir}":/charts \
-        "${helm_image}" --debug repo index /temp --url ${charts_url}
+        "${helm_image}" repo index /temp --url ${charts_url}
     fi  
 
     # Set the publishied chart variable
