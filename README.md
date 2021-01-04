@@ -12,7 +12,7 @@ To use this action for publishing a Helm chart to another repository, you need t
 
 1. A GitHub repo containing a directory with a Helm chart (e.g. 'chart')
 1. A GitHub repo used for publishing Helm charts via GitHub Pages.
-1. A GitHub access token for pushing the changes.cool
+1. A GitHub access token for pushing the changes.
 
 ### Example
 
