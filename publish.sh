@@ -73,8 +73,8 @@ Usage: $(basename "$0") <options>
     -h, --help               Display help
     -i, --helm-image         The helm Docker image (default: $DEFAULT_HELM_IMAGE)"
     -c, --chart              The chart directory (default: chart)
-    -d, --charts-dir         The charts directory
-    -u, --charts-url         The GitHub Pages URL to the charts repo
+    -d, --charts-dir         The directory to publish to
+    -u, --charts-url         The URL of the charts repository
 EOF
 }
 
